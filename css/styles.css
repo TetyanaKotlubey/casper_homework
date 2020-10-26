@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+a, button
+{
+    transition: all .3s ease-in-out;
+}
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #121116;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.container
+{
+    max-width: 420px;
+    padding: 0;
+    margin: 80px auto 10px;
+}
+.logo
+{
+    padding: 40px 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+.logo:hover, 
+.logo:focus,
+.logo:active
+{
+    opacity: .8;
+} 
+.socials 
+{
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.socials span
+{
+    display: block;
+    letter-spacing: 0.2rem;
+}
+.socials ul
+{
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    margin: 0 auto;  
+    padding: 0;
+}
+.socials span::after
+{
+    content:'';
+    width: 50%;
+    border-top: 1px solid #fff;
+    display: flex;
+    margin: 20px auto 20px;
+}
+.socials ul li
+{
+    margin: 0 auto;
+}
+.socials ul li a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.socials ul li a:hover,
+.socials ul li a:focus,
+.socials ul li a:active
+{
+color: #04a3ce ;
+}
+.copyright 
+{
+    display: block;
+    margin: 90px auto 15px;
+    text-align: center;
+   
+    font-size: 15px;
+} 
+.copyright a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.copyright a:hover, 
+.copyright a:focus,
+.copyright a:active
+{
+    color: #04a3ce;
+} 
+
